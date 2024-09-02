@@ -11,5 +11,9 @@ variable "subnet_cidr" {
 variable "subnet_names" {
     description = "Subnet names"
     type = list(string)
-    default = [ "PublicSubnet1", "PublicSubnet2" ]
+}
+
+variable "availability_zones" {
+  description = "Availability zones"
+  type = list(string)
 }
