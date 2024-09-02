@@ -5,7 +5,7 @@
  ## Introduction 
 This project automates the creation of a Virtual Private Cloud (VPC) on AWS, including multiple subnets, EC2 instances, and an Application Load Balancer (ALB) using Terraform. Each EC2 instance hosts a simple HTML page that displays information about the instance. The ALB distributes incoming traffic across these instances, ensuring high availability.
 
-<img src="Screenshot (398).png" width="45%"></img> <img src="Screenshot (397).png" width="45%"></img> 
+<img src="assets/Screenshot (398).png" width="45%"></img> <img src="assets/Screenshot (397).png" width="45%"></img> 
 
 Terraform is an open-source infrastructure as code (IaC) tool that allows you to define and provision infrastructure using a declarative configuration language. 
  
@@ -34,5 +34,5 @@ Automatically runs terraform apply whenever changes are made to the Terraform fo
 
 2. **Terraform Destroy Workflow**:
 Manually triggered to run terraform destroy.This is used to tear down the infrastructure and clean up resources once the project is concluded.
-![alt text](<Screenshot (395).png>)
-![alt text](<Screenshot (401).png>)
+![alt text](<assets/Screenshot (395).png>)
+![alt text](<assets/Screenshot (401).png>)
